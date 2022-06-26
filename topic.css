@@ -1,3 +1,41 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+a:link
+{
+    color:#FFFFFF;
+}
+
+a:visited
+{
+    color:#FFFFFF;
+}
+
+a:hover
+{
+    color:#FFFFFF;
+}
+
+.header{
+  font-size: 24px;
+  cursor: pointer;
+  padding-left: 20px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px
+}
+.nav-links li {
+  padding: 0px 10px;
+}
+
+
 .search-wrapper {
   display: flex;
   flex-direction: column;
