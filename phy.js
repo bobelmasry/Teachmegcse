@@ -1,13 +1,7 @@
 const userCardTemplate = document.querySelector("[data-user-template]")
 const userCardContainer = document.querySelector("[data-user-cards-container]")
 const searchInput = document.querySelector("[data-search]")
-var http = require('http');
 
-//create a server object:
-http.createServer(function (req, res) {
-  res.write('Hello World!'); //write a response to the client
-  res.end(); //end the response
-}).listen(8080); //the server object listens on port 8080
 let users = []
 
 searchInput.addEventListener("input", e => {
