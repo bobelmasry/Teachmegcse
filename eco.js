@@ -14,7 +14,7 @@ searchInput.addEventListener("input", e => {
   })
 })
 
-fetch("eco.json")
+fetch("https://bobelmasry.github.io/Teachmegcse/eco.json")
   .then(res => res.json())
   .then(data => {
     users = data.map(user => {
